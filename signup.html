@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!--jQuery library--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <nav>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Ct₹l Budget</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+			<li><a href="about_us.html"><span class="glyphicon glyphicon-info-sign" color="grey"></span> About Us</a></li>
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="signup">
+            <div class="row">
+                <div class="col-xs-6 col-xs-offset-3">
+                     
+                    <div class="panel panel-default" id="heading_sign_up" >
+			<div class="panel-heading" >
+                            <h4><center>Sign Up</center></h4>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group">
+				    <p><b>Name:</b></p>
+                                    <input type="name" class="form-group form-control"  placeholder="Name" name="name" required = "true">
+                                </div>
+                                <div class="form-group">
+				    <p><b>Email:</b></p>
+                                    <input type="email" class="form-group form-control"  placeholder="Enter Valid Email" name="e-mail" required = "true">
+                                </div>
+                                <div class="form-group">
+				    <p><b>Password:</b></p>
+                                    <input type="password" class="form-group form-control" placeholder="Password (Min. 6 characters)" name="password" required = "true">
+                                </div>
+                                <div class="form-group">
+				    <p><b>Phone Number:</b></p>
+                                    <input type="tel" class="form-group form-control"  placeholder="Enter Valid Phone Number (Ex: 8448444853)" name="contact" required = "true">
+                                </div>
+                                <button type="submit" name="submit" class="btn btn-success btn-block">Sign Up</button><br><br>
+                            </form><br/>
+                                </div>
+				</div>
+		</div>
+		</div>
+        </div>
+    <footer>
+        <div class="container">
+            <center>
+                Copyright &copy; Control Budget. All Rights Reserved|Contact Us: +91-8448444853.
+            </center>
+        </div>
+    </footer>
+</body>
+</html>
