@@ -10,6 +10,7 @@
     <link href="index.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+   <!--Header-->
     <nav>
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-header">
@@ -23,13 +24,16 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-			<li><a href="about_us.html"><span class="glyphicon glyphicon-info-sign" color="grey"></span> About Us</a></li>
+			<li><a href="About_us.html"><span class="glyphicon glyphicon-info-sign" color="grey"></span> About Us</a></li>
                         <li><a href="settings.html"><i class="fa fa-gear"></i> Change Password</a></li>
                         <li><a href="logout.html"><span class="glyphicon glyphicon-log-in" color="grey"></span> Logout</a></li>
                     </ul>
             </div>
         </div>
     </nav>
+   <!--Header end-->
+
+   <!--plan details panel-->
     <div class="container" id="signup">
             <div class="row">
                 <div class="col-xs-6 col-xs-offset-3">
@@ -44,10 +48,12 @@
                                 <div class="form-group">
 				  <div class="col-xs-6">
 				    <p><b>From</b></p>
+				   <!--Start date of plan-->
                                     <input type="date" class="form-group form-control"  placeholder="dd/mm/yyyy" name="froml" required = "true" min="01/07/2020" max="20/09/2020">
 				   </div>
 				   <div class="col-xs-6">
 				    <p><b>To</b></p>
+				   <!--End date of plan-->
                                     <input type="date" class="form-group form-control" placeholder="dd/mm/yyyy" name="to" required = "true">
 				   </div>
                                 </div>
@@ -76,6 +82,9 @@
 		</div>
 		</div>
         </div>
+   <!--plan details panel end-->
+
+   <!--Footer-->
     <footer>
         <div class="container">
             <center>
@@ -83,5 +92,6 @@
             </center>
         </div>
     </footer>
+   <!--Footer end-->
 </body>
 </html>

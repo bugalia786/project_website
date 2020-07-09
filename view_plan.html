@@ -10,6 +10,7 @@
     <link href="index.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+   <!--Header-->
     <nav>
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-header">
@@ -23,13 +24,17 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-			<li><a href="about_us.html"><span class="glyphicon glyphicon-info-sign" color="grey"></span> About Us</a></li>
+			<li><a href="About_us.html"><span class="glyphicon glyphicon-info-sign" color="grey"></span> About Us</a></li>
                         <li><a href="settings.html"><i class="fa fa-gear"></i> Change Password</a></li>
                         <li><a href="logout.html"><span class="glyphicon glyphicon-log-in" color="grey"></span> Logout</a></li>
                     </ul>
             </div>
         </div>
     </nav>
+   <!--Header end-->
+
+
+   <!--view plan -->
     <div class="container" id="new_page">
             <div class="row">
 		<div class="col-xs-6">
@@ -42,12 +47,14 @@
                             <p>Remaining Amount<span style="float:right">₹ 10000</span></p>
 			    <p>Date<span style="float:right">20th sep- 30th sep 2020</span></p>
                             
-                                </div>
-			</div>
+                        </div>
+		     </div>
 		</div>
+
 		<div class="col-xs-6">
 		<button type="button" name="submit" class="btn btn-outline-success btn-block" id="next"><a href="Add_new_expenses.html" >Expense Distribution</a></button><br><br><br>
 		</div>
+
                 <div class="col-xs-6" style="float:right">
                      
                     <div class="panel panel-primary" id="heading_sign_up" >
@@ -66,27 +73,29 @@
                                 </div>
                                 <div class="form-group">
 				    <p><b>Amount Spent</b></p>
-                                    <input type="digit" class="form-group form-control"  placeholder="Amount Spent" name="name" required = "true">
-<input type="number" class="form-group form-control"  placeholder="Choose" name="name" required = "true">
+                                    <input type="digit" class="form-group form-control" placeholder="Amount Spent" name="name" required = "true">
+				    <input type="number" class="form-group form-control"  placeholder="Choose" name="name" required = "true">
                                 </div>
                                 <div class="form-group">
 				    <p><b>Upload Bill</b></p>
                                     <div class="file-upload">
-  <div class="file-select">
-    <div class="file-select-button" id="fileName">Choose File</div>
-    <div class="file-select-name" id="noFile">No file chosen...</div> 
-    <input type="file" name="chooseFile" id="chooseFile">
-  </div>
-</div>
+					  <div class="file-select">
+					    <div class="file-select-button" id="fileName">Choose File</div>
+					    <div class="file-select-name" id="noFile">No file chosen...</div> 
+					    <input type="file" name="chooseFile" id="chooseFile">
+					  </div>
+					</div>
                                 </div>
                                 
                                 <button type="submit" name="submit" class="btn btn-outline-success btn-block" id="next"><a href="view_plan.html">Add</a></button>
                             </form><br/>
-                                </div>
-				</div>
-		</div>
-		</div>
+                          </div>
+		      </div>
+		  </div>
+	      </div>
         </div>
+
+  <!--Footer-->
     <footer>
         <div class="container">
             <center>
@@ -94,5 +103,6 @@
             </center>
         </div>
     </footer>
+  <!--Footer end-->
 </body>
 </html>
